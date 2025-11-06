@@ -36,4 +36,7 @@ fun TampilData(
         Pair(first = stringResource(id = R.string.jenis_kelamin), second = "Lainnya"),
         Pair(first = "ALAMAT", second = "Yogyakarta")
     )
+
+    Scaffold (modifier = Modifier,
+        topBar = {
 }
