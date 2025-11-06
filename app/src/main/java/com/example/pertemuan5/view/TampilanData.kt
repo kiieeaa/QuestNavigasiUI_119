@@ -60,6 +60,11 @@ fun TampilData(
                 verticalArrangement = Arrangement.spacedBy (space = dimensionResource
                     (id = R.dimen.padding_small))
             ){
+                items.forEach { item ->
+                    Column {
+                        Text(text = item.first.uppercase(),
+                            fontSize = 16.sp)
+            }
         }
         }
 }
