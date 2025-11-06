@@ -22,4 +22,9 @@ fun DataApp(
     modifier: Modifier = Modifier
 ) {
     Scaffold { isiRuang ->
+        NavHost(
+            navController = navController,
+            startDestination = Navigasi.Formulirku.name,
+            modifier = modifier.padding(isiRuang)
+        ) {
 }
