@@ -21,3 +21,5 @@ fun DataApp(
     navController: NavHostController = rememberNavController(),
     modifier: Modifier = Modifier
 ) {
+    Scaffold { isiRuang ->
+}
