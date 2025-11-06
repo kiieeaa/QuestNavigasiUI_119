@@ -51,5 +51,9 @@ fun TampilData(
                     )
             )
         }){ isiRuang->
+        Column(
+            modifier = Modifier.padding(paddingValues = isiRuang),
+            verticalArrangement = Arrangement.SpaceBetween
+        ){
         }
 }
