@@ -72,7 +72,16 @@ fun TampilData(
                 }
 
                 Spacer(modifier = Modifier.height(height = 10.dp))
+                Button(
+                    modifier = Modifier.fillMaxWidth(),
+                    onClick = onBackButton
+                ){
+                    Text(text = stringResource(id = R.string.back))
+                }
             }
         }
-        }
+    }
 }
+
+
+
